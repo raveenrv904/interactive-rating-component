@@ -1,0 +1,135 @@
+body {
+    background-color: #3A3845;
+    font-family: 'Lato', sans-serif;
+    margin-top: 25vh;
+}
+
+svg {
+    padding: .7rem;
+    border-radius: 50%;
+    background-color: #2C3639;
+    margin: 1rem 0 .7rem 0;
+}
+
+#first-form {
+    width: 18.3rem;
+    color: white;
+    background-color: #1B2430;
+    display: flexbox;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 10%;
+}
+
+#main-heading {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#first-para {
+    font-weight: 300;
+    font-size: .9rem;
+    color: #DDDDDD;
+}
+
+.rating-style {
+    padding: .8rem 1.1rem;
+    background-color: #2C394B;
+    border-radius: 50%;
+    transition: all .3s;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto 1.5rem auto;
+}
+
+.rating-style:hover {
+    background-color: #B2B1B9;
+}
+
+
+
+
+#first-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #FF7700;
+    color: #fff;
+    border-style: none;
+    font-weight: bolder;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+#first-btn:hover {
+    background-color: #fff;
+    color: #FF7700;
+}
+
+
+
+
+
+
+
+
+/* body {
+    background-color: #3A3845;
+    font-family: 'Lato', sans-serif;
+    margin-top: 25vh;
+} */
+
+.thankyou-container {
+    width: 18.3rem;
+    color: white;
+    background-color: #1B2430;
+    display: flex;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 10%;
+}
+
+
+svg {
+    margin-left: 1rem;
+}
+
+.rating-result p {
+    background-color: #2C394B;
+    color: #FF7700;
+    text-align: center;
+    margin: 0 60px;
+    font-weight: 700;
+    font-size: .77rem;
+    border-radius: 1rem;
+    padding: 3px 5px;
+}
+
+.h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.para {
+    color: #DDDDDD;
+    font-weight: 300;
+    font-size: .8rem;
+    text-align: center;
+}
+
+
+.hide {
+    display: none;
+}
